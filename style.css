@@ -1,0 +1,1346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.box{
+    width: 800px;
+    height: 800px;
+    border: 5px solid red;
+    margin: 55px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.item{
+    width: 400px;
+    height: 409px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    animation: box 2s linear infinite;
+    transform: scale(0);
+}
+.item:nth-child(odd){
+    background-color: white;
+}
+
+.item:nth-child(1){
+    /* z-index: 8; */
+    animation: item1 4s linear infinite;
+}
+.item:nth-child(2){
+    /* z-index: 7; */
+    animation: item2 4s linear 0.2s infinite;
+}
+.item:nth-child(3){
+    /* z-index: 6; */
+    animation: item3 4s linear .4s infinite;
+}
+.item:nth-child(4){
+    /* z-index: 5; */
+    animation: item4 4s linear .6s infinite;
+}
+.item:nth-child(5){
+    /* z-index: 4; */
+    animation: item5 4s linear .8s infinite;
+}
+.item:nth-child(6){
+    /* z-index: 3; */
+    animation: item6 4s linear 1s infinite;
+}
+.item:nth-child(7){
+    /* z-index: 2; */
+    animation: item7 4s linear 1.2s infinite;
+}
+.item:nth-child(8){
+    /* z-index: 1; */
+    animation: item8 4s linear 1.4s infinite;
+}
+.item:nth-child(9){
+    /* z-index: 1; */
+    animation: item9 4s linear 1.6s infinite;
+}
+.item:nth-child(10){
+    /* z-index: 8; */
+    animation: item10 4s linear 1.8S infinite;
+}
+.item:nth-child(11){
+    /* z-index: 7; */
+    animation: item11 4s linear 2s infinite;
+}
+.item:nth-child(12){
+    /* z-index: 6; */
+    animation: item12 4s linear 2.2S infinite;
+}
+.item:nth-child(13){
+    /* z-index: 5; */
+    animation: item13 4s linear 2.4s infinite;
+}
+.item:nth-child(14){
+    /* z-index: 4; */
+    animation: item14 4s linear 2.6s infinite;
+}
+.item:nth-child(15){
+    /* z-index: 8; */
+    animation: item15 4s linear 2.8S infinite;
+}
+.item:nth-child(16){
+    /* z-index: 7; */
+    animation: item16 4s linear 3s infinite;
+}
+.item:nth-child(17){
+    /* z-index: 6; */
+    animation: item17 4s linear 3.2s infinite;
+}
+.item:nth-child(18){
+    /* z-index: 5; */
+    animation: item18 4s linear 3.4s infinite;
+}
+.item:nth-child(19){
+    /* z-index: 4; */
+    animation: item19 4s linear 3.6s infinite;
+}
+.item:nth-child(20){
+    /* z-index: 4; */
+    animation: item20 4s linear 3.8s infinite;
+}
+.item:nth-child(21){
+    /* z-index: 4; */
+    animation: item21 4s linear 4s infinite;
+}
+.item:nth-child(22){
+    /* z-index: 8; */
+    animation: item22 4s linear 4.2S infinite;
+}
+.item:nth-child(23){
+    /* z-index: 7; */
+    animation: item23 4s linear 4.4S infinite;
+}
+.item:nth-child(24){
+    /* z-index: 6; */
+    animation: item24 4s linear 4.6S infinite;
+}
+.item:nth-child(25){
+    /* z-index: 5; */
+    animation: item25 4s linear 4.8s infinite;
+}
+.item:nth-child(26){
+    /* z-index: 4; */
+    animation: item26 4s linear 5s infinite;
+}
+.item:nth-child(27){
+    /* z-index: 8; */
+    animation: item27 4s linear 5.2S infinite;
+}
+.item:nth-child(28){
+    /* z-index: 7; */
+    animation: item28 4s linear 5.4s infinite;
+}
+.item:nth-child(29){
+    /* z-index: 6; */
+    animation: item29 4s linear 5.6s infinite;
+}
+.item:nth-child(30){
+    /* z-index: 5; */
+    animation: item30 4s linear 5.8s infinite;
+}
+.item:nth-child(31){
+    /* z-index: 5; */
+    animation: item31 4s linear 6s infinite;
+}
+.item:nth-child(32){
+    /* z-index: 8; */
+    animation: item32 4s linear 6.2s infinite;
+}
+.item:nth-child(33){
+    /* z-index: 7; */
+    animation: item33 4s linear 6.4s infinite;
+}
+.item:nth-child(34){
+    /* z-index: 6; */
+    animation: item34 4s linear 6.6s infinite;
+}
+.item:nth-child(35){
+    /* z-index: 5; */
+    animation: item35 4s linear 6.8s infinite;
+}
+.item:nth-child(36){
+    /* z-index: 4; */
+    animation: item36 4s linear 7s infinite;
+}
+.item:nth-child(37){
+    /* z-index: 3; */
+    animation: item37 4s linear 7.2s infinite;
+}
+.item:nth-child(38){
+    /* z-index: 2; */
+    animation: item38 4s linear 7.4s infinite;
+}
+.item:nth-child(39){
+    /* z-index: 1; */
+    animation: item39 4s linear 7.6s infinite;
+}
+.item:nth-child(40){
+    /* z-index: 1; */
+    animation: item40 4s linear 7.8s infinite;
+}
+.item:nth-child(41){
+    /* z-index: 8; */
+    animation: item41 4s linear 8S infinite;
+}
+.item:nth-child(42){
+    /* z-index: 7; */
+    animation: item42 4s linear 8.2s infinite;
+}
+.item:nth-child(43){
+    /* z-index: 6; */
+    animation: item43 4s linear 8.4S infinite;
+}
+.item:nth-child(44){
+    /* z-index: 5; */
+    animation: item44 4s linear 8.6s infinite;
+}
+.item:nth-child(45){
+    /* z-index: 4; */
+    animation: item45 4s linear 8.8s infinite;
+}
+.item:nth-child(46){
+    /* z-index: 8; */
+    animation: item46 4s linear 9S infinite;
+}
+.item:nth-child(47){
+    /* z-index: 7; */
+    animation: item47 4s linear 9.2s infinite;
+}
+.item:nth-child(48){
+    /* z-index: 6; */
+    animation: item48 4s linear 9.4s infinite;
+}
+.item:nth-child(49){
+    /* z-index: 5; */
+    animation: item49 4s linear 9.6s infinite;
+}
+.item:nth-child(50){
+    /* z-index: 4; */
+    animation: item50 4s linear 9.8s infinite;
+}
+.item:nth-child(51){
+    /* z-index: 4; */
+    animation: item51 4s linear 10s infinite;
+}
+.item:nth-child(52){
+    /* z-index: 4; */
+    animation: item52 4s linear 10.2s infinite;
+}
+.item:nth-child(53){
+    /* z-index: 8; */
+    animation: item53 4s linear 10.4S infinite;
+}
+.item:nth-child(54){
+    /* z-index: 7; */
+    animation: item54 4s linear 10.6S infinite;
+}
+.item:nth-child(55){
+    /* z-index: 6; */
+    animation: item55 4s linear 10.8S infinite;
+}
+.item:nth-child(56){
+    /* z-index: 5; */
+    animation: item56 4s linear 11s infinite;
+}
+.item:nth-child(57){
+    /* z-index: 4; */
+    animation: item57 4s linear 11.2s infinite;
+}
+.item:nth-child(58){
+    /* z-index: 8; */
+    animation: item58 4s linear 11.4S infinite;
+}
+.item:nth-child(59){
+    /* z-index: 7; */
+    animation: item59 4s linear 11.6s infinite;
+}
+.item:nth-child(60){
+    /* z-index: 6; */
+    animation: item60 4s linear 11.8s infinite;
+}
+.item:nth-child(61){
+    /* z-index: 5; */
+    animation: item61 4s linear 12s infinite;
+}
+.item:nth-child(62){
+    /* z-index: 4; */
+    animation: item62 4s linear 12.2s infinite;
+}
+.item:nth-child(63){
+    /* z-index: 4; */
+    animation: item63 4s linear 12.4s infinite;
+}
+.item:nth-child(64){
+    /* z-index: 4; */
+    animation: item64 4s linear 12.6s infinite;
+}
+.item:nth-child(65){
+    /* z-index: 4; */
+    animation: item65 4s linear 12.8s infinite;
+}
+.item:nth-child(66){
+    /* z-index: 4; */
+    animation: item66 4s linear 13s infinite;
+}
+.item:nth-child(67){
+    /* z-index: 4; */
+    animation: item67 4s linear 13.2s infinite;
+}
+.item:nth-child(68){
+    /* z-index: 4; */
+    animation: item68 4s linear 13.4s infinite;
+}
+.item:nth-child(69){
+    /* z-index: 4; */
+    animation: item69 4s linear 13.6s infinite;
+}
+.item:nth-child(70){
+    /* z-index: 4; */
+    animation: item70 4s linear 13.8s infinite;
+}
+.item:nth-child(71){
+    /* z-index: 4; */
+    animation: item71 4s linear 14s infinite;
+}
+.item:nth-child(72){
+    /* z-index: 4; */
+    animation: item72 4s linear 14.2s infinite;
+}
+.item:nth-child(73){
+    /* z-index: 4; */
+    animation: item73 4s linear 14.4s infinite;
+}
+.item:nth-child(74){
+    /* z-index: 4; */
+    animation: item74 4s linear 14.6s infinite;
+}
+.item:nth-child(75){
+    /* z-index: 4; */
+    animation: item75 4s linear 14.8s infinite;
+}
+.item:nth-child(76){
+    /* z-index: 4; */
+    animation: item76 4s linear 15s infinite;
+}
+.item:nth-child(77){
+    /* z-index: 4; */
+    animation: item77 4s linear 15.2s infinite;
+}
+.item:nth-child(78){
+    /* z-index: 4; */
+    animation: item78 4s linear 15.4s infinite;
+}
+.item:nth-child(79){
+    /* z-index: 4; */
+    animation: item79 4s linear 15.6s infinite;
+}
+.item:nth-child(80){
+    /* z-index: 4; */
+    animation: item80 4s linear 15.8s infinite;
+}
+.item:nth-child(81){
+    /* z-index: 4; */
+    animation: item81 4s linear 16s infinite;
+}
+.item:nth-child(82){
+    /* z-index: 4; */
+    animation: item82 4s linear 16.2s infinite;
+}
+.item:nth-child(83){
+    /* z-index: 4; */
+    animation: item83 4s linear 16.4s infinite;
+}
+.item:nth-child(84){
+    /* z-index: 4; */
+    animation: item84 4s linear 16.6s infinite;
+}
+.item:nth-child(85){
+    /* z-index: 4; */
+    animation: item85 4s linear 16.8s infinite;
+}
+.item:nth-child(86){
+    /* z-index: 4; */
+    animation: item86 4s linear 17s infinite;
+}
+.item:nth-child(87){
+    /* z-index: 4; */
+    animation: item87 4s linear 17.2s infinite;
+}
+.item:nth-child(88){
+    /* z-index: 4; */
+    animation: item88 4s linear 17.4s infinite;
+}
+.item:nth-child(89){
+    /* z-index: 4; */
+    animation: item89 4s linear 17.6s infinite;
+}
+.item:nth-child(90){
+    /* z-index: 4; */
+    animation: item90 4s linear 17.8s infinite;
+}
+.item:nth-child(91){
+    /* z-index: 4; */
+    animation: item91 4s linear 18s infinite;
+}
+.item:nth-child(92){
+    /* z-index: 4; */
+    animation: item92 4s linear 18.2s infinite;
+}
+.item:nth-child(93){
+    /* z-index: 4; */
+    animation: item93 4s linear 18.4s infinite;
+}
+.item:nth-child(94){
+    /* z-index: 4; */
+    animation: item94 4s linear 18.6s infinite;
+}
+.item:nth-child(95){
+    /* z-index: 4; */
+    animation: item95 4s linear 18.8s infinite;
+}
+.item:nth-child(96){
+    /* z-index: 4; */
+    animation: item96 4s linear 19s infinite;
+}
+.item:nth-child(97){
+    /* z-index: 4; */
+    animation: item97 4s linear 19.2s infinite;
+}
+.item:nth-child(98){
+    /* z-index: 4; */
+    animation: item98 4s linear 19.4s infinite;
+}
+.item:nth-child(99){
+    /* z-index: 4; */
+    animation: item99 4s linear 19.6s infinite;
+}
+.item:nth-child(100){
+    /* z-index: 4; */
+    animation: item100 4s linear 19.8s infinite;
+}
+@keyframes item1 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item2 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item3 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item4 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item5 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item6 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item7 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item8 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes item9 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes item10 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item11 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item12 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item13 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item14 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item15 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item16 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item17 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes item18 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes item19 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes item20 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes item21 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item22 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item23 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item24 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item25 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item26 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item27 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item28 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item29 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item30 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item31 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item32 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item33 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item34 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item35 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item36 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item37 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item38 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item39 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes item40 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes item41 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item42 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item43 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item44 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item45 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item46 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item47 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item48 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes item49 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes item50 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes item51 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes item52 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item53 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item54 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item55 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item56 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item57 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item58 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item59 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item60 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item61 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item62 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item63 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item64 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item65 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item66 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item67 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item68 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item69 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item70 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item71 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item72 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item73 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item74 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item75 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item76 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item77 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item78 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item79 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item80 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item81 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item82 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item83 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item84 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item85 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item86 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item87 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item88 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item89 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item90 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item91 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item92 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item93 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item94 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item95 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item96 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item97 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item98 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item99 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
+@keyframes item100 {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+}
